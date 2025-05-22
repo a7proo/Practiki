@@ -20,8 +20,7 @@ main{
     border-radius: 15px;
     box-shadow: 0 10px 25px 10px rgba(0, 0, 0, 0.1);
     width: 800px;
-    height: 500px;
-    align-items: center;
+    height: 500px; 
 }
 .block textarea{
     margin-left: 20px;
@@ -29,6 +28,7 @@ main{
     resize: none;
     width: 300px;
     height: 500px;
+    border-color: #eaeaea;
 }
 main button{
     background-color: rgba(29, 117, 165, 1);
