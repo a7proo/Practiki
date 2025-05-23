@@ -12,6 +12,48 @@ main{
     display: flex;
     justify-content: center;
     padding: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+.block2{
+    margin: 20px;
+    height: auto;
+    width: 800px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+.block2 h1{
+    margin: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    align-items: center;
+}
+#alphabetOriginal{
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#alphabetChanged{
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.NonePage{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 150px;
+}
+.NonePage h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 132px;
+    color: rgba(29, 117, 165, 1);
+    margin: 0;
+
+}
+.NonePage h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 42px;
+    margin: 0;
 }
 .block{
     padding: 10px;
@@ -29,6 +71,7 @@ main{
     width: 300px;
     height: 500px;
     border-color: #eaeaea;
+    border-radius: 10px;
 }
 main button{
     background-color: rgba(29, 117, 165, 1);

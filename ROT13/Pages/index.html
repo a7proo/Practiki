@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ROT13</title>
-    <link rel="stylesheet" href="Style/style.css">
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
     <header>
@@ -16,8 +16,15 @@
             <button id="encryptBtn">Зашифровать (ROT13)</button>
             <textarea id="outputText" readonly placeholder="Вывод..."></textarea>
         </div>
+        <div class="block2">
+            <h1>Алфавит ROT13</h1>
+            <div id="alphabetOriginal"></div>
+            <div id="alphabetChanged" style="display:none;">
+                <div id="changedLetters"></div>
+            </div>
+        </div>
 
-        <script src="index.js"></script>
+        <script src="/index.js"></script>
     </main> 
 </body>
 </html>
